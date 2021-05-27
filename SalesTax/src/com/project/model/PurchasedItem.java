@@ -64,12 +64,6 @@ public class PurchasedItem {
 		this.tax = tax;
 	}
 
-	@Override
-	public String toString() {
-		return "PurchasedItem [product=" + product + ", price=" + price + ", imported=" + imported + ", basicTaxExempt="
-				+ basicTaxExempt + ", tax=" + tax + "]";
-	}
-
 	public static class TaxAmount {
 		private BigDecimal basicTax;
 		private BigDecimal importTax;
@@ -88,11 +82,6 @@ public class PurchasedItem {
 
 		public void setImportTax(BigDecimal importTax) {
 			this.importTax = importTax;
-		}
-
-		@Override
-		public String toString() {
-			return "TaxAmount [basicTax=" + basicTax + ", importTax=" + importTax + "]";
 		}
 
 	}
