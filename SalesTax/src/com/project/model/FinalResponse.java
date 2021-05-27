@@ -37,5 +37,4 @@ public class FinalResponse {
 	public void setItems(List<PurchasedItem> items) {
 		this.items = items;
 	}
-
 }

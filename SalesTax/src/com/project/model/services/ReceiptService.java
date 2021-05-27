@@ -58,6 +58,7 @@ public class ReceiptService{
 		return response;
 	}
 
+
 	public List<String> generateReceipt(FinalResponse response) {
 		List<String> receipt = new ArrayList<String>();
 		for (PurchasedItem item : response.getItems()) {
